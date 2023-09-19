@@ -1,0 +1,804 @@
+@media screen and (max-width: 1920px) {
+    .searchListing_section_1 .form-group.row .inp_sub input {
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1281px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+}
+
+/*================== AASHIR MEDIA QUERIES =================== */
+/*================== SCREEN 1280px =================== */
+
+@media screen and (max-width: 1280px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #5a5a5a;
+        padding: 13px 0px 0px 0px;
+        margin: 0px 10px;
+    }
+
+    .searchListing_section_2 .first_card p {
+        display: inline-block;
+        padding-left: 4px;
+        margin: 0px;
+        padding-top: 7px;
+        /* margin-right: 15px; */
+    }
+
+    .searchListing_section_2 .card_bottom {
+        margin-top: 20px;
+    }
+
+    .searchListing_section_2 .card_bottom_paragraph {
+        margin-right: 15px !important;
+    }
+    .contact_page .custom_container {
+        max-width: 80%;
+    }
+    .signup .p_main{
+        font-size: 14px;
+    }
+}
+
+/*================== END SCREEN 1280px =================== */
+/*================== SCREEN 1024px =================== */
+
+@media screen and (max-width: 1199px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0 3px;
+    }
+    .searchListing_section_2 .col-md-3 .card_bottom select {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .custom_header {
+        margin-top: 40px;
+        max-width: 95%;
+        background-size: cover;
+        color: #fff;
+        background: transparent;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #5a5a5a;
+        margin: 0px 5px;
+    }
+
+    .btn_login {
+        color: #ff9a00 !important;
+        border-radius: 10px;
+        border-color: #ff9a00;
+        margin-right: 15px;
+        padding: 10px 13px !important;
+    }
+
+    .btn_signup {
+        color: #fff !important;
+        background-color: #ff6600;
+        margin-right: 5px;
+        border: 0;
+        border-radius: 10px;
+        padding: 10px 10px !important;
+    }
+
+    .searchListing_section_2 .first_card p {
+        display: inline-block;
+        padding-left: 4px;
+        margin: 0px;
+        padding-top: 7px;
+        /* margin-right: 15px; */
+    }
+
+    .searchListing_section_2 .card_bottom {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .searchListing_section_2 .card_bottom_paragraph {
+        margin-right: 15px !important;
+    }
+
+    /*.searchListing_section_2 .Card_icons li {*/
+        /*width: 156px;*/
+    /*}*/
+
+    /*.first_card_info.col-md-4 ul li {*/
+        /*text-overflow: ellipsis;*/
+        /*width: 170px;*/
+        /*overflow: hidden;*/
+    /*}*/
+
+    .searchListing_section_2 .company_details_col {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .searchListing_section_2 .col-md-12 .Company_logo {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+        gap: 0;
+        margin-right: 0;
+        justify-content: space-between;
+    }
+    .searchListing_section_2 .col-md-12 .Company_logo img{
+        height: 100%;
+    }
+
+    .Login_page .col_main {
+        max-width: 50%;
+    }
+    .signup .custom_container {
+        max-width: 75%;
+    }
+    .contact_page .custom_container {
+        max-width: 85%;
+    }
+
+    .searchListing_section_2 .first_card p {
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+
+    .searchListing_section_1 .form-group.row {
+        max-width: 55%
+    }
+    .signup {
+        margin-top: 65px;
+        margin-bottom: 72px;
+    }
+    /* */
+    .searchListing_section_2 .col-md-12 .Card_icons {
+        width: 48%;
+    }
+    .searchListing_section_2 .company_details_col, .searchListing_section_2 .first_card_paragraph {
+        width: 100%;
+    }
+    .searchListing_section_2 .company_details_col {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .searchListing_section_2 .Card_icons li {width: 100%;}
+    .searchListing_section_2 .Company_logo .logo, .searchListing_section_2 .Company_logo .profile_image {
+        width: 48%;
+
+    }
+}
+
+/*================== END SCREEN 1024px =================== */
+
+@media screen and (max-width: 992px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 12px !important;
+    }
+
+    .searchListing_section_1 .form_group input[type="submit"] {
+        left: 62%;
+    }
+
+    /*.searchListing_section_2 .company_details_col {*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
+    /*}*/
+
+    .searchListing_section_2 .col-md-12 .Company_logo {
+        margin: 0px 0px 25px;
+    }
+
+    /*.searchListing_section_2 .Card_icons li {*/
+        /*width: 196px;*/
+    /*}*/
+
+    .searchListing_section_2 .row>.col-md-3 {
+        width: 49%;
+    }
+
+    .searchListing_section_2 .col-md-3 .first_card .card-body {
+        margin-top: 14px;
+    }
+    ul.pri_term {
+        padding: 0;
+        margin-top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    p {
+        font-size: 12px;
+    }
+
+    .contact_page .custom_container {
+        max-width: 85%;
+    }
+
+    .searchListing_section_2 .first_card p {
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+
+    .searchListing_section_2 .btn_cards {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    /*.searchListing_section_2 .Company_logo {*/
+        /*display: block;*/
+    /*}*/
+}
+@media screen and (max-width: 990px) {
+    .Login_page .col_main {
+        max-width: 55%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .contact_page .row_main .col_2 {
+        padding: 16px 25px;
+    }
+
+    .contact_page .row_main .heading h1 {
+        font-size: 45px;
+    }
+
+    .contact_page .row_main .col_2 p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .searchListing_section_2 .btn_cards {
+        padding: 8px 19px;
+    }
+
+    /*.searchListing_section_1 .input_container i {*/
+    /*display: none;*/
+    /*}*/
+    .searchListing_section_1 .form_group input[type="submit"] {
+        left: 67%;
+        width: 16%;
+    }
+}
+
+/*================== SCREEN 768px =================== */
+
+@media screen and (max-width: 768px) {
+    .custom_header {
+        margin-top: 40px;
+        max-width: 95%;
+        background-size: cover;
+        color: #fff;
+        background: transparent;
+    }
+
+    .navbar-collapse {
+        align-items: center !important;
+        text-align: center !important;
+        position: absolute !important;
+        width: 100% !important;
+        top: 120px !important;
+        background-color: #fff !important;
+        left: 0 !important;
+        z-index: 1 !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: #ff6600;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #ff6600;
+        display: inline-block;
+    }
+
+    .navbar-collapse .btn_login {
+        color: #ff9a00 !important;
+        margin: 10px 0px !important;
+        border-color: #ff9a00;
+        display: inline-block;
+        padding: 10px 30px !important;
+    }
+
+    .btn_login:hover {
+        color: #fff !important;
+        background-color: #ff6600;
+        border-color: #ff6600;
+    }
+
+    .navbar-collapse .btn_signup {
+        color: #fff !important;
+        background-color: #ff6600;
+        margin-right: 5px;
+        border: 0;
+        border-radius: 10px;
+        padding: 10px 25px !important;
+        display: inline-block;
+    }
+
+    .btn_signup:hover {
+        color: #ff6600;
+        background-color: #fff0d3;
+        border-color: #ff9a00;
+    }
+
+    /*.searchListing_section_2 .card-body .row .col-md-6:first-child {*/
+        /*width: 40%;*/
+    /*}*/
+
+    /*.searchListing_section_2 .card-body .row .col-md-6:last-child {*/
+        /*width: 60%;*/
+    /*}*/
+
+    /*.searchListing_section_2 .Card_icons li {*/
+        /*width: 170px;*/
+    /*}*/
+
+    /*.searchListing_section_2 .col-md-3 .first_card {*/
+        /*align-items: center;*/
+    /*}*/
+
+    .searchListing_section_2 .company_details_col {
+        align-items: normal;
+    }
+
+    /*.searchListing_section_2 .Card_icons li {*/
+        /*width: 200px;*/
+    /*}*/
+
+    .searchListing_section_2 .col-md-3 .card_tag {
+        padding-top: 9px;
+    }
+    .searchListing_section_2 .first_card p {
+        display: initial;
+        /* padding-left: 20px; */
+        margin: 0px;
+        /* padding-top: 10px; */
+        /* margin-right: 15px; */
+    }
+
+    .first_card .first_card_company {
+        text-align: center;
+    }
+
+    body .searchListing_section_2 .first_card .first_card_info {
+        /*display: grid;*/
+        margin-top: 10px;
+        padding: 0px 10px;
+    }
+    .Login_page .col_main {
+        max-width: 75%;
+    }
+    .signup .custom_container {
+        max-width: 87%;
+    }
+
+    .signup form .form_group_1 input,
+    .signup form .form_group_1 .form_group_opt {
+        font-size: 12px;
+    }
+    .searchListing_section_1 h2 {
+        line-height: 35px;
+    }
+}
+
+/*================== SCREEN 767px =================== */
+
+@media screen and (max-width: 767px) {
+
+    /* p,
+    a {
+        font-size: 12px !important;
+    } */
+    .contact_page .row_main .col_2_main {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .contact_page .row_main .col_2 {
+        width: 100%;
+        padding: 25px 0px;
+    }
+
+    .contact_page .row_main .col_2 p {
+        font-size: 18px;
+    }
+
+    /* .first_card .first_card_info, */
+    .searchListing_section_2 .card_bottom {
+        text-align: center;
+    }
+
+    .sec_2_head {
+        margin-top: 100px;
+    }
+
+    .searchListing_section_2 .premium_card .card-body .row {
+        flex-direction: column;
+    }
+
+    .searchListing_section_2 .card-body .row .col-md-6:first-child {
+        width: 100%;
+    }
+
+    .searchListing_section_2 .card-body .row .col-md-6:last-child {
+        width: 100%;
+    }
+
+    .searchListing_section_2 .card-body .row .col-md-6 {
+        text-align: center;
+    }
+
+    .searchListing_section_2 .col-md-12 .Company_logo, .searchListing_section_2 .col-md-12 .Card_icons {
+        margin: 0px auto;
+    }
+
+    footer img {
+        width: 40%;
+    }
+    .searchListing_section_2 .col-md-12 .Company_logo {
+        /*width: 39%;*/
+        margin-bottom: 30px;
+        /*height: 129px;*/
+        padding: 0;
+    }
+    .searchListing_section_2 .Card_icons li{
+        /*width: auto;*/
+        text-align: left;
+        padding-right: 20px;
+    }
+    .searchListing_section_2 .premium_card p {
+        margin-right: 0px;
+    }
+    /*.searchListing_section_2 .row>.col-md-3 {*/
+        /*width: 100%;*/
+    /*}*/
+    .first_card_info.col-md-4{
+        margin: 0px;
+        padding-top: 10px;
+    }
+    .searchListing_section_2 h4 {
+        text-align: center;
+    }
+    /* */
+    .searchListing_section_2 .first_card .first_card_info {
+        padding: 10px;
+    }
+}
+
+/*================== END SCREEN 767px =================== */
+@media screen and (max-width: 766px) {
+    .signup .custom_container {
+        max-width: 85%;
+    }
+
+    .signup form .form_group_1 input,
+    .signup form .form_group_1 .form_group_opt {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .searchListing_section_1 .input_container i {
+        left: 18.5%;
+    }
+
+    .searchListing_section_1 .form_group input[type="submit"] {
+        font-size: 12px;
+        top: 25%;
+        margin-left: 14px;
+    }
+
+    .searchListing_section_1 .form_group input[type="text"] {
+        font-size: 14px;
+    }
+
+    .searchListing_section_1 .input_container i {
+        left: 20.5%;
+    }
+
+    footer img {
+        width: 41%;
+    }
+
+    footer .footer_first_row div:last-child ul {
+        margin-top: 10%;
+    }
+
+    footer .footer_input {
+        max-width: 93%;
+        margin: 0 auto 20px auto;
+    }
+
+    .searchListing_section_2 .first_card {
+        margin-bottom: 10px;
+    }
+
+    /*.signup .btn_signup_3 {*/
+        /*width: 30%;*/
+    /*}*/
+
+    .searchListing_section_1 .form-group.row {
+        max-width: 85%;
+    }
+    /*.searchListing_section_2 .col-md-12 .Company_logo, .searchListing_section_2 .col-md-12 .Card_icons {*/
+        /*width: 60%;*/
+    /*}*/
+    body .sigWrapper {width: 100%;}
+    .sigWrapper canvas {width: 100%;}
+    .signup .sigPad {width: 100%;}
+    .Login_page {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .Login_page .col_main {
+        margin-top: 0;
+    }
+    .Login_page .check_box .form-check {padding: 0;}
+    .Login_page .check_box a {margin: 0;}
+    /* */
+    .searchListing_section_2 .col-md-12 .Card_icons {width: 100%;}
+    .searchListing_section_2 .premium_card {  padding: 25px 10px 40px;  }
+    .searchListing_section_2 .Company_logo .logo , .searchListing_section_2 .Company_logo .profile_image {width: 100%;height: 200px; margin-bottom: 20px;}
+    .searchListing_section_2 .col-md-12 .Company_logo, .searchListing_section_2 .col-md-12 .Card_icons {flex-wrap: wrap;height: unset;margin-bottom: 0px;}
+    .searchListing_section_2 .col-md-12 .Company_logo img {object-fit: cover;object-position: top;}
+  /*body   .searchListing_section_2 .first_card {  height: 170px;  }*/
+    .searchListing_section_2 .Card_icons li{padding: 0;margin-bottom: 5px;}
+}
+@media screen and (max-width: 480px) {
+    .Login_page .col_main {
+        max-width: 90%;
+    }
+    .signup .custom_container {
+        max-width: 90%;
+    }
+
+    .signup .p_main,
+    .signup .p_1,
+    .signup .p_2 {
+        font-size: 17px;
+    }
+
+    .signup .col_main h1 {
+        font-size: 34px;
+    }
+    .contact_page .custom_container {
+        max-width: 95%;
+    }
+
+    .contact_page .row .col_1 {
+        padding: 30px;
+    }
+
+    .searchListing_section_1 .form_group input[type="text"] {
+        width: 163px;
+    }
+
+    .searchListing_section_1 .input_container i {
+        left: 13.5%;
+    }
+
+    .searchListing_section_1 .form_group input[type="submit"] {
+        width: 24%;
+        margin-left: 5px;
+    }
+    .signup .col_main p{
+        line-height: 15px;
+    }
+    .signup .row_main{
+        padding: 10px 0px;
+    }
+    /*.signup .btn_signup_3 {*/
+        /*width: 35%;*/
+    /*}*/
+}
+@media screen and (max-width: 425px) {
+    .section_1 .form-group #find_agent {
+        font-size: 12px;
+    }
+    .searchListing_section_2 h4 {
+        font-size: 16px;
+    }
+    .searchListing_section_2 .row>.col-md-3 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 412px) {}
+
+.searchListing_section_1 .input_container i {
+    left: 6.5%;
+}
+/*================== SCREEN 375px =================== */
+
+@media screen and (max-width: 375px) {
+    .searchListing_section_2 .card_bottom p {
+        display: block;
+    }
+    .signup .cont_bottom p {
+        font-size: 15px;
+    }
+
+    .signup .row_main {
+        padding: 30px 0px;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .searchListing_section_2 .btn_cards {
+        padding: 8px 13px;
+    }
+
+    .searchListing_section_1 .form_group input[type="submit"] {
+        width: 28%;
+        margin-left: 23px;
+    }
+
+    .searchListing_section_1 .input_container i {
+        left: 5.5%;
+    }
+    .searchListing_section_1 .form-group.row {
+        max-width: 95%;
+    }
+
+    .searchListing_section_1 .container {
+        max-width: 97%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 360px) {
+    .searchListing_section_1 .form_group input[type="text"] {
+        width: 154px;
+    }
+
+    .searchListing_section_2 .premium_card .card-body>p {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .Login_page .col_main {
+        max-width: 100%;
+    }
+
+    .Login_page .row_main {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .Login_page .col_main {
+        padding: 30px 15px;
+    }
+
+    .Login_page .check_box {
+        font-size: 14px;
+    }
+    .signup .custom_container {
+        max-width: 100%;
+    }
+
+    .signup .col_main h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 20px !important;
+        line-height: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .contact_page .custom_container {
+        max-width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .contact_page .row .col_1 {
+        padding: 20px;
+    }
+
+    .contact_page .row_main .heading h1 {
+        font-size: 35px;
+    }
+
+    .searchListing_section_2 .premium_card p {
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+
+    .searchListing_section_2 .btn_cards {
+        padding: 8px 9px;
+    }
+
+    .searchListing_section_2 .card_tag p {
+        padding-left: 20px;
+    }
+
+    .searchListing_section_1 .form_group input[type="text"] {
+        width: 135px;
+    }
+
+    .searchListing_section_1 .form_group input[type="submit"] {
+        width: 30%;
+        margin-left: 18px;
+        top: 20%;
+    }
+
+    .searchListing_section_1 .form_group input[type="text"] {
+        padding: 12px;
+        padding-left: 25px;
+    }
+
+    /*.signup .btn_signup_3 {*/
+        /*width: 50%;*/
+    /*}*/
+
+    .section_1 .form-group input[type="submit"] {
+        width: 42%;
+        top: 12%;
+    }
+
+
+    .sec_2_head {
+        margin-top: 100px;
+    }
+
+    .container.section_3 button {
+        height: 49px;
+        font-size: 12px;
+        width: 200px;
+    }
+    .searchListing_section_2 h4 {
+        font-size: 14px;
+    }
+    .searchListing_section_2 .row>.col-md-3 {
+        width: 100%;
+    }
+}
+
+/*================== END SCREEN 375px =================== */
+/* =================================================================== */
+/* FOOTER  */
+
+footer {
+    background-color: #363636;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer_second_column {
+    padding-left: 9px;
+    /*margin: 15px 0px;*/
+}
+
+.logo_paragraph {
+    max-width: 100%;
+}
+
+#Copyright {
+    text-align: center;
+}
+
+#Privacy_policy {
+    text-align: center;
+}
+
+/* END FOOTER  */
+/*================== END AASHIR MEDIA QUERIES =================== */
+/* =================== Syed Ashaar Ali Responsive CSS Start =================== */
+/* ============== Login Page Responsive CSS Start ============== */
+/* ============== Login Page Responsive CSS End ============== */
+/* ============== Sign Up Page Responsive CSS Start ============== */
+/* ============== Sign Up Page Responsive CSS End ============== */
+/* ============== Contact Page Responsive CSS Start ============== */
+/* ============== Contact Page Responsive CSS End ============== */
+/* =================== Syed Ashaar Ali Responsive CSS End =================== */

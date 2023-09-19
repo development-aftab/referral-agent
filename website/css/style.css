@@ -1,0 +1,2087 @@
+/* =============================================================================== */
+/* -------------------Aashir Ahmed CSS Start------------------- */
+/* =============================================================================== */
+/*  FONT FAMILY  */
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url(../assets/fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
+/*  END FONT FAMILY  */
+/*  TYPOGRAPHY */
+
+h1 {
+    font-size: 60px;
+    font-family: "Poppins-Medium";
+    line-height: 65px;
+    color: #000000;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: "Poppins-Medium";
+    line-height: 65px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: "Poppins-Medium";
+    line-height: 50px;
+    color: #ff9a00;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "Poppins-Regular";
+    line-height: 70px;
+    color: #5a5a5a;
+}
+
+h5 {
+    font-size: 30px;
+    font-family: "Poppins-Regular";
+    line-height: 70px;
+    color: #5a5a5a;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Poppins-Regular";
+    line-height: 32px;
+    color: #5a5a5a;
+}
+/* END TYPOGRAPHY */
+/*  GLOBAL */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/*  END GLOBAL */
+
+body {
+    background: linear-gradient( 180deg, rgba(255, 240, 211, 1) 0%, rgba(255, 254, 252, 1) 50%, rgba(255, 240, 211, 1) 100%);
+    height: auto;
+}
+/* HEADER */
+
+.custom_header {
+    margin-top: 40px;
+    /* max-width: 70%; */
+    background-size: cover;
+    color: #fff;
+    background: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ff6600;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #ff6600;
+    display: inline-block;
+}
+
+.nav-item a:hover {
+    color: #ff6600 !important;
+    padding-bottom: 5px !important;
+    border-bottom: 3px solid #ff6600;
+    display: inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5a5a5a;
+    padding: 13px 0px 0px 0px;
+    margin: 0px 10px;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    color: #5a5a5a;
+}
+
+.btn_login {
+    color: #ff9a00 !important;
+    border-radius: 10px;
+    border-color: #ff9a00;
+    margin-right: 15px;
+    padding: 11px 30px !important;
+}
+
+.btn_login:hover {
+    color: #fff !important;
+    background-color: #ff6600 !important;
+    border-color: #ff6600 !important;
+}
+
+.btn_signup {
+    color: #fff !important;
+    background-color: #ff6600;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 10px;
+    padding: 11px 30px !important;
+}
+
+.btn_signup>:hover {
+    color: #ff6600;
+    background-color: #fff0d3;
+    border-color: #ff9a00;
+}
+/* END HEADER */
+/* SECTION 01 */
+
+.section_1 {
+    margin-top: 50px;
+}
+
+.section_1 h1 {
+    max-width: 95%;
+    margin-top: 200px;
+}
+
+.section_1 p {
+    max-width: 75%;
+}
+
+.sec1_img {
+    margin-left: -200px;
+    z-index: -1;
+}
+/* END SECTION 01  *
+
+
+         /* SECTION 02 */
+
+.sec_2_head {
+    margin-top: 200px;
+}
+
+.section_2 {
+    margin-top: 100px;
+    text-align: center;
+}
+/* END SECTION 02  */
+/* SECTION 03 */
+
+.section_3 {
+    margin-top: 100px;
+}
+
+.section-3_col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-3_col-2 a.btn_learnmore{
+    text-align: center;
+}
+.map_list .ul_div ul li a {
+    color: #ff6600;
+    text-decoration: none;
+}
+.map_list .ul_div ul li:hover a{
+    color: white;
+}
+.section_3_img {
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px;
+}
+
+.btn_learnmore {
+    color: #fff;
+    background-color: #ff6600;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 10px;
+    width: 160px;
+    padding: 10px 12px;
+    text-decoration: none;
+    /* height: 50px; */
+}
+
+.m_s_sec table{
+    margin: 80px 0;
+}
+
+.m_s_sec table tr td, .m_s_sec table tr th {
+    padding: 16px;
+}
+
+.ref_net .page {
+    margin-bottom: 50px;
+}
+.ref_net .page h5 {
+    font-size: 20px;
+}
+.ref_net .page p {
+    font-size: 16px;
+}
+
+/* .btn_learnmore:hover {
+     color: #ff6600;
+     background-color: #fff0d3;
+     border-color: #ff6600;
+ } */
+/* SWIPER SLIDER  */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.swiper .swiper-slide {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.swiper .swiper-slide img {
+    padding: 0px 12px;
+}
+
+.mySwiper_dup .swiper-slide img {height: 55px;}
+
+/* END SWIPER SLIDER  */
+
+
+.mySwiper_dup .swiper-slide{
+    text-align: center;
+}
+
+.btn_realestate {
+    color: #fff;
+    background-color: #ff6600;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 10px;
+    width: 235px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.btn_buyersandsellers {
+    color: #fff;
+    background-color: #ff9a00;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 10px;
+    width: 235px;
+    height: 50px;
+    text-transform: uppercase;
+}
+/* END SECTION 03  */
+/*  SECTION 04  */
+
+.section_4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section_4 .container-fluid {
+    max-width: 85%;
+}
+
+.section_4 p {
+    color: #fff;
+}
+
+.card_realEstate {
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card_BuyerAndseller {
+    background-color: #ff9a00;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card_BuyerAndseller .card-body,
+.card_realEstate .card-body {
+    padding: 1rem 3rem;
+}
+
+.card_BuyerAndseller img,
+.card_realEstate img {
+    margin: 0px 0px 45px 0px;
+}
+/*BUTTONS*/
+
+.btn_signupReceive {
+    /*width: 300px;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: #ff6600;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 12px 15px;
+}
+.btn_signupReceive:hover,
+.btn_partner:hover,
+.btn_buyers:hover{
+    background-color: white;
+    border: 1px solid #fff;
+    color: #ff6600;
+}
+
+
+.btn_Referral {
+    /*width: 175px;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: #ff6600;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 12px 15px;
+}
+.btn_member{
+    /*width: 175px;*/
+    height: 50px;
+    color: #fff;
+    background-color: #ff6600;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.btn_partner {
+    /*width: 195px;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: #ff9a00;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 12px 15px;
+}
+
+.btn_buyers {
+    /*width: 145px;*/
+    /*height: 50px;*/
+    color: #fff;
+    background-color: #ff9a00;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 12px 15px;
+}
+/*END BUTTONS*/
+/* END SECTION 04  */
+/* =============================================================================== */
+/* SECTION 1 SEARCH LISTING */
+
+.searchListing_section_1 {
+    margin-top: 50px;
+}
+
+.searchListing_section_1 .container {
+    max-width: 84%;
+    background-image: linear-gradient(90deg, #00000080, #00000080), url(../assets/img/Mask\ Group\ 4.png);
+    border-radius: 30px;
+    padding: 100px 0px;
+    /* filter: brightness(.5); */
+}
+
+.searchListing_section_1 h2 {
+    text-align: center;
+}
+/* huzaifa */
+
+.section_1 .form-group {
+    position: relative;
+}
+
+.section_1 .form-group input[type="text"], .section_1 .form-group select {
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 40px;
+}
+
+.section_1 .form-group input[type="text"]:focus,  .section_1 .form-group select:focus {
+    outline: none;
+}
+
+.section_1 .form-group #find_agent {
+    position: absolute;
+    top: 20%;
+    z-index: 11;
+    /* width: 27%; */
+    right: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.section_1 .form-group .inp_sub {
+    position: relative;
+}
+
+.section_1 .form-group .inp_sub:before {
+    content: "";
+    width: 1px;
+    height: 27px;
+    position: absolute;
+    top: 29%;
+    left: 40px;
+    background-color: #aaaaaa;
+}
+
+.section_1 .form-group .z_code {
+    z-index: 11;
+    width: 100%;
+}
+
+.section_1 .input_container i {
+    position: absolute;
+    top: 40%;
+    left: 21px;
+    color: #ff6600;
+    z-index: 9;
+}
+/* huzaifa */
+/* END SECTION 1 SEARCH LISTING */
+
+.sec_2_head .map_sec .img_div {
+    margin-top: 50px;
+}
+
+.map_list {
+    margin-top: 80px;
+}
+
+.map_list .ul_div {
+    border: 1px solid #ff6600;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.map_list .ul_div ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map_list .ul_div ul li {
+    list-style-type: none;
+    width: 25%;
+    padding: 6px 12px;
+}
+
+.map_list .ul_div ul li:hover {
+    border-radius: 6px;
+    /* width: 13%; */
+    color: white;
+    background-color: #ff6600;
+    cursor: pointer;
+}
+/* SECTION 2 SEARCH LISTING */
+
+.searchListing_section_2 {
+    margin-top: 50px;
+}
+
+.searchListing_section_2 .Card_icons {
+    display: inline-grid;
+}
+
+.searchListing_section_2 .Company_logo {
+     border-radius: 20px;
+    /*background-color: rgb(247 249 249);*/
+    display: inline-block;
+    /* display: block; */
+    margin-bottom: 20px;
+    /* text-align: center; */
+    width: 110px;
+    height: 150px;
+    /* margin: 0 auto; */
+    text-align: left;
+    width: 100%;
+    align-items: flex-end;
+    display: flex;
+    gap: 30px;
+    padding-right: 70px;
+}
+
+.searchListing_section_2 .Company_logo .logo{width: 50%; overflow: hidden; height: 100%; border: 1px solid black; border-radius: 20px;}
+.searchListing_section_2 .Company_logo .profile_image {width: 50%; overflow: hidden; height: 100%; border: 1px solid black; border-radius: 20px;}
+.searchListing_section_2 .Company_logo .logo img {width: 100%; height: 100%; object-fit: contain; object-position: center;}
+.searchListing_section_2 .Company_logo .profile_image img{object-fit: contain; object-position: center;}
+
+.searchListing_section_2 .Card_icons {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.searchListing_section_2 .Card_icons li {
+    width: 200px;
+   /* text-overflow: ellipsis;*/
+    white-space: nowrap;
+/*    overflow: hidden;*/
+}
+.searchListing_section_2 .Card_icons li {
+    white-space: normal;
+        word-break: break-all;
+}
+.searchListing_section_2 .company_details_col {
+/*    display: flex;*/
+    align-items: center;
+}
+.searchListing_section_2 .Card_icons {
+    width: 49%;
+}
+.searchListing_section_2 .premium_card {
+    height: auto;
+    padding: 25px 20px 40px;
+    border-radius: 20px !important;
+    border: 1px solid #ff6600;
+    box-shadow: 0px 0px 10px #ff66005e;
+    position: relative;
+}
+
+.searchListing_section_2 .premium_card p {
+    display: inline-block;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    margin-right: 20px;
+}
+
+.view_aggrement {
+    text-align: right;
+    position: absolute;
+    bottom: 10px;
+    width: 97%;
+    left: 0;
+}
+
+.view_aggrement>a {
+    border: 1px solid #ff4d00;
+    padding: 5px 13px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #ff5200;
+    text-decoration: unset;
+}
+
+.searchListing_section_2 .first_card {
+    height: auto;
+    padding: 25px 20px 40px;
+    border-radius: 20px;
+    border: 1px solid #ff6600;
+    position: relative;
+}
+
+.searchListing_section_2 .btn_cards {
+    color: #ff6600;
+    border-radius: 5px;
+    border-color: #ff6600;
+    margin-right: 8px;
+    padding: 8px 25px;
+}
+/* .searchListing_section_2 .btn_cards:hover {
+     color: #fff !important;
+     background-color: #ff9a00 !important;
+     border-color: #ff9a00 !important;
+ } */
+
+.searchListing_section_2 .fas {
+    color: #ff6600;
+}
+
+.searchListing_section_2 .first_card p {
+    display: inline-block;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    margin-right: 20px;
+}
+
+.searchListing_section_2 .first_card_paragraph p {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.searchListing_section_2 .card_tag {
+    background-image: url(../assets/img/prem_img.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 3%;
+    top: -16px;
+    background-size: 100% 100%;
+    height: 80px;
+}
+
+.searchListing_section_2 .card_tag p {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6px 31px 6px 25px;
+    color: white;
+}
+
+.searchListing_section_2 .card_tag p i {
+    color: white;
+}
+/* HUZAIFA */
+
+.searchListing_section_1 .form_group {
+    position: relative;
+}
+
+.searchListing_section_1 .form_group input[type="text"] {
+    padding: 16px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 40px;
+}
+
+.searchListing_section_1 .form_group input[type="text"]:focus {
+    outline: none;
+}
+
+.searchListing_section_1 .form_group input[type="submit"] {
+    position: absolute;
+    top: 20%;
+    z-index: 11;
+    width: 10%;
+    left: 60%;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.searchListing_section_1 .form_group .inp_sub {
+    position: relative;
+}
+
+.searchListing_section_1 .form_group .inp_sub:before {
+    content: "";
+    width: 1px;
+    height: 27px;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    background-color: #aaaaaa;
+}
+
+.frm_grp_sec {
+    text-align: center;
+    position: relative;
+}
+
+.searchListing_section_1 .form_group .z_code {
+    z-index: 11;
+    width: 28%;
+    margin-left: -20px;
+}
+
+.searchListing_section_1 .input_container i {
+    position: absolute;
+    top: 35%;
+    left: 29.5%;
+    color: #ff6600;
+}
+/* HUZAIFA */
+/* END SECTION 2 SEARCH LISTING */
+/* =============================================================================== */
+/* FOOTER  */
+
+footer {
+    background-color: #363636;
+    height: auto;
+    padding-top: 100px;
+}
+/* .footer_first_row {
+         margin-bottom: 100px;
+     } */
+
+footer p {
+    color: #bebebe;
+}
+
+.logo_paragraph {
+    max-width: 85%;
+}
+
+footer img {
+    margin-bottom: 40px;
+}
+
+.footer_second_column {
+    padding-left: 45px;
+}
+
+.footer_second_column .footer_heading {
+    margin-bottom: 38px;
+}
+
+.social_icon {
+    color: #ff6600;
+    height: 25px !important;
+    padding: 0 8px;
+}
+
+.footer_ul {
+    padding-left: 0px;
+}
+
+.footer_ul li {
+    color: #bebebe;
+    list-style-type: none;
+    margin: 5px 0px;
+}
+
+.footer_ul li a {
+    text-decoration: none;
+    color: #bebebe;
+    font-size: 18px;
+    font-family: "Poppins-Regular";
+}
+
+.footer_input {
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 38px;
+}
+
+.pri_term {
+    margin-top: 25%;
+}
+
+.pri_term li {
+    display: inline-block;
+    color: #bebebe;
+}
+
+.pri_term li a {
+    font-size: 18px;
+    color: #bebebe;
+    text-decoration: none;
+}
+.paint_div{
+    text-align: center;
+}
+/* #Privacy_policy {
+         text-align: end;
+     } */
+/* END FOOTER  */
+/* =============================================================================== */
+/* -------------------Aashir Ahmed CSS End------------------- */
+/* =============================================================================== */
+/* =============================================================================== */
+/* -------------------Syed Ashaar Ali CSS start------------------- */
+/* ============================================================================== */
+/* -------------------Sign Up Page CSS start------------------- */
+/* @font-face {
+ font-family: Pop Med;
+ src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+ font-family: Pop Reg;
+ src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+ font-family: Pop Lt;
+ src: url(../assets/fonts/Poppins-Light.ttf);
+} */
+
+.signup {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.signup .custom_container {
+    max-width: 67%;
+}
+
+.signup .row_main {
+    border-radius: 15px;
+    padding: 40px 20px;
+    border: 1px solid #ff6600;
+    background-color: white;
+}
+
+.signup .bd {
+    border: 2px solid red;
+}
+
+.signup .col_main {
+    text-align: center;
+}
+
+.signup .col_main h1 {
+    font-family: "Poppins-Medium";
+}
+
+.signup .col_main p {
+    font-family: "Poppins-Regular";
+    color: #5a5a5a;
+    padding-bottom: 30px;
+}
+
+.signup .row_main {
+    justify-content: center;
+}
+
+.sidebar-nav ul#side-menu li a{
+    padding: 14px 15px 14px 20px;
+}
+
+.signup form .form_group_1 {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 26px -5px rgb(255 102 0 / 30%);
+    border-radius: 8px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.signup form .form_group_1 img {
+    width: 14px;
+}
+
+.signup form .form_group_1 .Comp_img {
+    width: 18px;
+}
+
+.signup form .form_group_1 .form_group_opt {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 26px -5px rgb(255 102 0 / 30%);
+    border-radius: 8px;
+}
+
+.signup form .form_group_1 i {
+    color: #ff6600;
+    padding: 0px 10px;
+    padding-left: 0px;
+}
+
+.signup form .form_group_1 input {
+    height: 50px;
+    width: 85%;
+    border: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: "Poppins-Light";
+    font-size: 14px;
+}
+.signup form .form_group_1 textarea {
+    height: 109px;
+    width: 85%;
+    border: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: "Poppins-Light";
+    font-size: 14px;
+}
+
+.signup form .form_group_1 textarea::placeholder {
+    color: #5a5a5a;
+}
+.signup form .form_group_1 input::placeholder {
+    color: #5a5a5a;
+}
+
+.signup form .form_group_1 .form_group_opt {
+    width: 85%;
+    border: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: "Poppins-Light";
+    font-size: 14px;
+    margin: 0px;
+    height: 50px;
+    padding-left: 0px;
+}
+
+.signup form .form_group_1 .form_group_opt::placeholder {
+    color: #5a5a5a;
+}
+
+.signup .form .form_group_opt {
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    height: 50px;
+}
+
+.signup form .form_group_1 .form_group_opt {
+    box-shadow: none;
+    color: #5a5a5a;
+}
+
+.signup .p_main {
+    font-family: "Poppins-LightItalic";
+    padding: 0px 22px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.signup .p_1,
+.p_2 {
+    font-family: "Poppins-Light";
+    padding: 0px 22px;
+}
+
+.signup .btn_signup_3 {
+    color: #fff;
+    background-color: #ff6600;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 8px;
+    padding: 11px 30px !important;
+    font-family: "Poppins-Regular";
+    margin-top: 30px;
+    /*width: 25%;*/
+}
+
+.signup button {
+    margin-top: 30px;
+}
+
+.signup .cont_bottom {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.signup .cont_bottom p {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: -1px;
+    font-family: "Poppins-Light";
+}
+
+.signup .cont_bottom a {
+    text-decoration: none;
+    font-family: "Poppins-Light";
+    color: #ff6600;
+    margin-left: 5px;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+}
+.pass_f{
+    padding: 0 12px;
+}
+/* --------------Sign Up Page CSS End----------------- */
+/* ----------Login Page CSS Start------------ */
+
+.Login_page {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.Login_page .col_main {
+    background-color: white;
+    text-align: center;
+    border: 1px solid #ff6600;
+    border-radius: 15px;
+    max-width: 40%;
+    margin: 0px auto;
+    padding: 30px 22px;
+    margin-top: 40px;
+}
+
+.Login_page .col_main h1 {
+    font-family: "Poppins-Medium";
+    font-size: 35px;
+    margin: 0px;
+    margin: 20px 0px 10px 0px;
+}
+
+.Login_page .col_main p {
+    font-family: "Poppins-Regular";
+    color: #5a5a5a;
+    margin: 0px;
+    padding-bottom: 15px;
+    letter-spacing: -0.5px;
+}
+
+.Login_page form .form_group_1 {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 26px -5px rgb(255 102 0 / 30%);
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+.Login_page form .form_group_1 .invalid-feedback {
+    padding: 10px 0px;
+    margin: 0;
+}
+
+
+.Login_page form .form_group_2 {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 26px -5px rgb(255 102 0 / 30%);
+    border-radius: 8px;
+}
+
+.Login_page form .form_group_1 i {
+    color: #ff6600;
+    padding: 0px 10px;
+    padding-left: 0px;
+}
+
+.Login_page form .form_group_2 i {
+    color: #ff6600;
+    padding: 0px 10px;
+    padding-left: 0px;
+}
+
+.Login_page form .form_group_2 i img {
+    width: 14px;
+}
+
+.Login_page form .form_group_1 input {
+    height: 50px;
+    width: 85%;
+    border: 0px;
+    outline: 0px;
+    font-family: "Poppins-Light";
+    font-size: 14px;
+    padding: 15px 0px;
+    border-radius: 8px;
+}
+
+.Login_page form .form_group_1 input::placeholder {
+    color: #5a5a5a;
+}
+
+.Login_page form .form_group_2 input {
+    height: 50px;
+    width: 85%;
+    border: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: "Poppins-Light";
+    font-size: 14px;
+    padding: 15px 0px;
+    border-radius: 8px;
+}
+
+.Login_page form .form_group_2 input::placeholder {
+    color: #5a5a5a;
+}
+
+.Login_page .check_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Login_page .check_box .form-check {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.Login_page .check_box .form-check input {
+    margin-bottom: 4px;
+}
+
+.Login_page .my_label p {
+    font-family: "Poppins-Light";
+    font-size: 15px;
+    padding-bottom: 0px !important;
+    margin-left: 5px !important;
+}
+
+.Login_page .check_box a {
+    color: #ff6600;
+    text-decoration: none;
+    font-family: "Poppins-Light";
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.Login_page .btn_login_2 {
+    color: #fff;
+    background-color: #ff6600;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 8px;
+    padding: 11px 30px !important;
+    font-family: "Poppins-Regular";
+}
+
+.Login_page button {
+    margin-top: 30px;
+}
+
+.Login_page .cont_bottom {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.Login_page .cont_bottom p {
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: -1px;
+}
+
+.Login_page .cont_bottom a {
+    text-decoration: none;
+    font-family: "Poppins-Light";
+    color: #ff6600;
+    margin-left: 5px;
+    letter-spacing: -0.5px;
+    font-weight: bold;
+}
+/* ----------Login Page CSS End------------ */
+/* -------------------Contact Page CSS Start---------------------- */
+
+.contact_page {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.contact_page .custom_container {
+    max-width: 75%;
+}
+
+.contact_page .row_main .heading {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact_page .row_main .heading h1 {
+    font-family: "Poppins-Medium";
+}
+
+.contact_page .row_main .heading p {
+    font-family: "Poppins-Regular";
+}
+
+.contact_page .row .col_1 {
+    border-radius: 15px;
+    border: 1px solid orange;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.contact_page form .form_group_1 {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 26px -5px rgb(255 102 0 / 30%);
+    border-radius: 8px;
+}
+
+.contact_page .col_form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_page .form_group_1.form_group_wd {
+    width: 48%;
+}
+
+.contact_page form .form_group_1 i {
+    color: #ff6600;
+    padding: 0px 10px;
+    padding-left: 0px;
+}
+
+.contact_page form .form_group_1 input {
+    height: 50px;
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    border: 0px;
+    font-family: "Poppins-Light";
+    font-size: 14px;
+    padding: 17px 20px;
+    border-radius: 8px;
+}
+
+.contact_page form .form_group_1 input::placeholder {
+    color: #5a5a5a;
+}
+
+.contact_page form .form_group_1 textarea {
+    height: 150px;
+    width: 100%;
+    border: 0px;
+    outline: 0px;
+    font-family: "Poppins-Light";
+    font-size: 14px;
+    padding: 17px 20px;
+    border-radius: 8px;
+}
+
+.contact_page form .form_group_1 textarea::placeholder {
+    color: #5a5a5a;
+}
+
+.contact_page .row_main .col_2 {
+    background-color: #ff9a00;
+    padding: 39px 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 88%;
+    float: right;
+}
+
+.contact_page .row_main .col_2 i {
+    color: white;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.contact_page .row_main .col_2 p {
+    color: white;
+    font-family: "Poppins-Regular";
+    margin: 0px;
+    font-size: 20px;
+}
+
+.contact_page .row_main .col_2_main {
+    padding-right: 0px;
+}
+
+.contact_page .btn_login_3 {
+    color: #fff;
+    background-color: #ff6600;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 8px;
+    padding: 11px 30px !important;
+    font-family: "Poppins-Regular";
+    margin-top: 20px;
+}
+/* -------------------Contact Page CSS End---------------------- */
+/* =============================================================================== */
+/* -------------------Syed Ashaar Ali CSS End------------------- */
+/* ANIMATION BUTTON CSS  */
+/* ---------------------------------------------------------------------------------- */
+
+.custom-btn {
+    position: relative;
+    transition: ease 500ms;
+}
+
+.custom-btn:before {
+    content: '';
+    border-left: 2px solid #ff6600;
+    width: auto;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: ease 500ms;
+}
+
+.custom-btn:after {
+    content: '';
+    border-bottom: 2px solid #ff6600;
+    width: 0;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: ease 500ms;
+}
+
+.custom-btn>span:before {
+    content: '';
+    border-left: 2px solid #ff6600;
+    width: auto;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: ease 500ms;
+}
+
+.custom-btn>span:after {
+    content: '';
+    border-bottom: 2px solid #ff6600;
+    width: 0;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: ease 500ms;
+}
+
+.custom-btn:hover {
+    background: transparent;
+    transition: ease 500ms;
+    border-radius: 0;
+    color: #ff6600;
+}
+
+.custom-btn:hover:before {
+    height: 100%;
+    transition: ease 500ms;
+}
+
+.custom-btn:hover:after {
+    width: 100%;
+    transition: ease 500ms;
+}
+
+.custom-btn:hover>span:after {
+    width: 100%;
+    transition: ease 500ms;
+}
+
+.custom-btn:hover>span:before {
+    height: 100%;
+    transition: ease 500ms;
+}
+
+.ancolor:before {
+    border-left: 2px solid #ff9a00;
+}
+
+.ancolor:after {
+    border-bottom: 2px solid #ff9a00;
+}
+
+.ancolor>span:before {
+    border-left: 2px solid #ff9a00;
+}
+
+.ancolor:hover {
+    color: #ff9a00;
+}
+
+.ancolor>span:after {
+    border-bottom: 2px solid #ff9a00;
+}
+
+
+.searchListing_section_1 .form-group.row {
+    background: white;
+    max-width: 40%;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: relative;
+    padding: 10px 0;
+}
+
+.searchListing_section_1 .form-group.row select {
+    height: 50px;
+    width: 100%;
+    border: 0;
+    padding-left: 20px;
+}
+
+.searchListing_section_1 .form-group.row .inp_sub input {
+    height: 50px;
+    border: 0;
+    width: 65%;
+}
+
+.searchListing_section_1 .form-group.row .inp_sub input.submit_btn {
+    width: auto;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    border-radius: 15px;
+    height: 45px;
+}
+
+.searchListing_section_1 .form-group.row i {
+    left: 12px;
+}
+.swal-button-container button{
+    background-color: #ff6600;
+    color: white;
+    border: 1px solid #ff6600;
+    outline: none;
+}
+.swal-button-container button:hover{
+    background-color: white !important;
+    color: #ff6600;
+}
+.searchListing_section_2 .Company_logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+body .sigPad .sigNav .clearButton {left: 0;}
+
+/* ---------------------------------------------------------------------------------- */
+/* ANIMATION BUTTON CSS  */
+/* =============================================================================== */
+/* =============================================================================== */
+/* =============================================================================== */
+/* RESPONSIVE @ 1440px  */
+
+@media only screen and (max-width: 1440px) {
+    .section_4 .card_realEstate .card-body .btn_signupReceive,
+    .section_4 .card_realEstate .card-body .btn_Referral,
+    .section_4 .card_BuyerAndseller button {
+        width: auto;
+    }
+    .section_4 .card_BuyerAndseller button {
+        margin-right: 13px;
+    }
+    .section_1 .sec1_img img {
+        width: 100%;
+
+    }
+    /*css 2-3-2022*/
+    .sec1_img {
+        margin-left: -100px;
+        transform: scale(1.3);
+    }
+
+    .btn_signupReceive{
+        margin-right: 6px;
+    }
+    /*.searchListing_section_1 .section_1 .form-group #find_agent{*/
+        /*width: 30%*/
+    /*}*/
+    /* */
+    .card_BuyerAndseller .card-body, .card_realEstate .card-body {
+        padding: 1rem 2rem;
+    }
+    .section_1> .row {
+        align-items: flex-end;
+        /* justify-content: center; */
+    }
+}
+/* RESPONSIVE @ 1336px  */
+@media only screen and (max-width: 1336px) {
+    /* */
+    .section_3_img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .navbar .nav-link {
+        font-size: 14px;
+    }
+    body .sec_2_head .map_row svg {
+        max-width: 85%;
+    }
+    .sec1_img {
+        transform: scale(1.3);
+    }
+    .cust_cont {
+        max-width: 90%;
+    }
+
+}
+/* RESPONSIVE @ 1200px  */
+
+@media only screen and (max-width: 1280px) {
+    /* Index css */
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0px;
+        padding-top: 10px;
+        padding-right: 17px;
+        font-size: 14px;
+    }
+    .sec1_img {
+        margin-left: -50px;
+    }
+    /*.sec1_img img {*/
+        /*width: 115%;*/
+    /*}*/
+    /*.section_3 .sec_3_txt {*/
+        /*padding-left: 97px;*/
+    /*}*/
+
+    .section_4 .card_realEstate .card-body {
+        padding: 1rem 1rem;
+    }
+    .section_4 .card_realEstate .card-body .btn_signupReceive {
+        /*margin-right: 0px;*/
+        width: auto;
+    }
+    .section_4 .card_realEstate .card-body .btn_Referral {
+        width: auto;
+    }
+    .section_4 .card_BuyerAndseller button {
+        width: auto !important;
+        margin-right: 0px;
+    }
+    .section_4 .card_BuyerAndseller .card-body {
+        padding: 1rem 1rem;
+    }
+    .section_4 .footer_first_row h2 {
+        font-size: 40px;
+    }
+    /*css 2-3-2022*/
+    /*.section_1 .sec1_img img {*/
+        /*width: 123%;*/
+    /*}*/
+    /*.section_1> .row{*/
+        /*align-items: flex-end;*/
+    /*}*/
+    .section_3 .mySwiper_dup .swiper-slide img {
+        width: 100%;
+    }
+    /*.searchListing_section_1 .section_1 .form-group #find_agent {*/
+        /*width: 33%;*/
+    /*}*/
+    .searchListing_section_2 .col-md-3 .first_card p {
+        padding-left: 23px;
+    }
+    .searchListing_section_2 .card.premium_card .Card_icons ul {
+        padding-left: 0px;
+    
+    }
+
+    .searchListing_section_2 .Company_logo {
+        margin-right: 20px;
+    }
+    /* */
+    .card_BuyerAndseller .card-body .btn {
+        margin-right: 5px;
+    }
+}
+/* RESPONSIVE @ 1200px  */
+/* RESPONSIVE @ 1080px  */
+
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 50px;
+    }
+    p,
+    a , li {
+        font-size: 15px !important;
+    }
+    .section_1 h1 {
+        margin-top: 46px;
+    }
+    .section_1 .form-group input[type="submit"] {
+        width: 31%;
+    }
+    .section_3 .section_3_img {
+        width: 100%;
+    }
+    .section_4 .card-text {
+        font-size: 16px;
+    }
+    .section_4 .card_realEstate .card-body .btn_signupReceive,
+    .section_4 .card_realEstate .card-body .btn_Referral,
+    .section_4 .card_BuyerAndseller button {
+        font-size: 13px;
+    }
+    footer .footer_input {
+        height: 50px;
+    }
+    footer .btn_learnmore {
+        height: 43px;
+    }
+    .searchListing_section_1 .input_container i {
+        left: 26.5%;
+    }
+    .searchListing_section_1 .form_group input[type="submit"] {
+        width: 11%;
+    }
+    /*css 2-3-2022*/
+    .searchListing_section_1 .form_group input[type="text"] {
+        padding-right: 0px;
+    }
+    /*.btn_signupReceive{*/
+        /*padding: 12px 4px;*/
+    /*}*/
+}
+/* RESPONSIVE @ 1080px  */
+
+@media only screen and (max-width: 1024px) {
+    .searchListing_section_1 .form_group input[type="submit"] {
+        width: 13%;
+    }
+    .searchListing_section_1 .input_container i {
+        left: 25.5%;
+    }
+    .searchListing_section_1 .form_group input[type="text"] {
+        padding-right: 0px;
+    }
+    /*.section_1 .sec1_img img {*/
+        /*width: 120%;*/
+    /*}*/
+    /*.section_1 .form-group #find_agent{*/
+        /*width: 30%;*/
+    /*}*/
+    /*.searchListing_section_1 .section_1 .form-group #find_agent {*/
+        /*width: 41%;*/
+        /*right: 4px;*/
+    /*}*/
+    .searchListing_section_2 .col-md-12 .Company_logo,
+    .searchListing_section_2 .col-md-12 .Card_icons{
+        width: 33%;
+    }
+    /*.searchListing_section_2 .card-body .row .col-md-6:first-child{*/
+        /*width: 55%*/
+    /*}*/
+    /*.searchListing_section_2 .card-body .row .col-md-6:last-child{*/
+        /*width: 45%*/
+    /*}*/
+    /* */
+    .section_4 .container-fluid {
+        max-width: 95%;
+    }
+    body .sec_2_head .map_row svg {
+        max-width: 100%;
+    }
+    .section_1> .row {
+        align-items: center;
+
+    }
+    .cust_cont {
+        max-width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    /* */
+    h1 {
+        font-size: 45px;
+    }
+
+}
+/* RESPONSIVE @ 991px  */
+
+@media only screen and (max-width: 991px) {
+    h1 {
+        font-size: 39px;
+    }
+    h2 {
+        font-size: 35px !important;
+    }
+    .section_1 {
+        margin-top: 110px;
+    }
+    .section_1 h1 {
+        max-width: 100%;
+        margin-top: 0px;
+    }
+    .section_1 .form-group input[type="submit"] {
+        width: 39%;
+        z-index: 0;
+    }
+    .section_4 .card_BuyerAndseller button {
+        margin-right: 3px;
+        font-size: 12px;
+    }
+    footer .footer_first_row h3 {
+        font-size: 30px;
+    }
+    /*css 2-3-2022*/
+    .cust_cont{
+        max-width: 95%;
+        padding: 0px 5px;
+    }
+    /*.section_1 .form-group #find_agent {*/
+        /*width: 31%;*/
+    /*}*/
+    /*.sec_2_head .map_row svg{*/
+        /*max-width: 100%;*/
+    /*}*/
+    .swiper .swiper-slide img {
+        padding: 0px 12px;
+    }
+    .section_4 .card_realEstate .card-body .btn_signupReceive {
+        margin-bottom: 10px;
+    }
+
+
+}
+/* RESPONSIVE @ 991px  */
+/* RESPONSIVE @ 768px  */
+
+
+@media only screen and (max-width: 800px) {
+    .pass_f {
+        padding: 0 6px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 25px !important;
+    }
+    h3 {
+        font-size: 23px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+    a {
+        font-size: 13px;
+    }
+    .section_1 {
+        margin-top: 0px;
+    }
+    .sec1_img {
+        margin-left: -133px;
+        margin-top: 10%;
+        transform: unset;
+    }
+    /*.sec1_img img {*/
+        /*width: 150%;*/
+    /*}*/
+    .sec_2_head {
+        margin-top: 100px;
+    }
+    .section_1 .form-group input[type="submit"] {
+        font-size: 14px;
+        width: 36%;
+    }
+    .container.section_3 button {
+        height: 40px;
+        font-size: 14px;
+        width: 200px;
+    }
+    .section_4 .card_realEstate .card-body .btn_signupReceive,
+    .section_4 .card_realEstate .card-body .btn_Referral,
+    .section_4 .card_BuyerAndseller button {
+        /*width: 75% !important;*/
+        margin-top: 10px;
+    }
+    footer img {
+        width: 87%;
+    }
+    footer .footer_first_row h3 {
+        font-size: 22px;
+    }
+    footer .footer_first_row div:last-child {
+        padding: 0px;
+    }
+    footer .footer_first_row div:last-child ul {
+        padding-left: 0px;
+    }
+    .searchListing_section_1 .input_container i {
+        left: 22.5%;
+    }
+    .searchListing_section_1 .form_group input[type="submit"] {
+        width: 17%;
+    }
+    .searchListing_section_1 .form_group input[type="text"] {
+        padding-left: 22px;
+    }
+    .searchListing_section_1 .form_group .z_code {
+        padding-left: 0px !important;
+    }
+    .searchListing_section_2 .first_card .card-body {
+        padding: 0px;
+    }
+    /*css 2-3-2022*/
+    .section_1> .row {
+        flex-direction: column;
+        margin-top: 35px;
+    }
+    .section_1> .row> .col-md-6{
+        width: 85%;
+    }
+    .sec1_img {
+        margin-left: 0px;
+    }
+    .section_1 .sec1_img img {
+        width: 100%;
+    }
+    .section_1 p {
+        max-width: 100%;
+        text-align: center;
+    }
+    .section_1 h1{
+        text-align: center;
+    }
+    .section_1 .form-group{
+        justify-content: center;
+    }
+    .section_1 .input_container i{
+        left: 97px;
+    }
+    /*.section_1> .row {*/
+        /*align-items: center;*/
+    /*}*/
+    .section_1 h1{
+        margin-top: 35px;
+    }
+    .section_3> .row{
+        flex-direction: column;
+    }
+    .section_3> .row> .col-md-6{
+        width: 100%;
+        text-align: center;
+    }
+    .section_3_img{
+        margin-left: 0px;
+    }
+    .section_3 .sec_3_txt {
+        padding: 12px;
+    }
+    .section-3_col-2 a.btn_learnmore{
+        margin: 10px auto 0px;
+    }
+    .section_4 .footer_first_row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_4 .footer_first_row .col-sm-6 {
+        width: 85%;
+        margin: 0px 0px 15px;
+    }
+    /*.sec_2_head .map_row svg{*/
+        /*max-width: 100% !important;*/
+    /*}*/
+    footer img {
+        width: 50%;
+    }
+
+    .section_4 .card_realEstate .card-body .btn_signupReceive {
+        margin-right: 11px;
+    }
+    /* */
+    .map_list .ul_div ul {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pri_term {
+        margin-top: 8%;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    footer{
+        text-align: center;
+    }
+
+    .sec_2_head {
+        margin-top: 40px;
+    }
+    .section_2 {
+        margin-top: 0px;
+    }
+    .section_4 {
+        margin-top: 21px;
+        margin-bottom: 40px;
+    }
+/* */
+    .footer_second_column .footer_heading {
+        margin-bottom: 0px;
+    }
+    .footer_input {
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    /* */
+    .map_list .ul_div {
+        padding: 15px;
+    }
+    .section_1 .form-group .inp_sub{
+        width: 100%;
+        padding: 0px;
+    }
+    /*.section_1 .form-group #find_agent{*/
+        /*left: 10px;*/
+    /*}*/
+    .section_1 .input_container i {
+        left: 10px;
+    }
+    .section_1 .form-group #find_agent {
+        top: 23%;
+        right: 10px;
+
+    }
+    .section_1 .form-group .inp_sub:before{
+        left: 30px;
+    }
+    .section_4 .card_realEstate .card-body .btn_signupReceive , .card_BuyerAndseller .card-body .btn {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+  #WHAT_WE_DO  h3.mar_head {
+        font-size: 14px;
+        line-height: 3;
+    }
+    .custom_header .navbar-brand {
+        width: 50%;
+    }
+    .section_3 {
+        margin-top: 50px;
+    }
+    .map_list {
+        margin-top: 50px;
+    }
+    .sec_2_head {
+        margin-top: 50px;
+    }
+    .sigWrapper {width: 100%;}
+
+    .sigWrapper canvas {width: 100%;}
+
+    .signup .sigPad {width: 100%;}
+    #mobile_view_html , .signup .p_main {padding: 0px  5px;}
+    .signup form .form_group_1 .valid + span {width: 100%;padding: 10px;text-align: center;}
+    .signup form .form_group_1:nth-child(2) {flex-wrap: wrap;}
+    body .signup {margin-top: 40px;margin-bottom: 40px;}
+    .disclaim h3 {font-size: 16px;}
+
+}
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+    .section_1 .sec1_img {
+        margin-left: 0px;
+    }
+    .section_1 .sec1_img img {
+        width: 100%;
+    }
+    .section_3 .section_3_img {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .section_3 .sec_3_txt {
+        padding: 5px 39px;
+    }
+    .section_4 .card_realEstate {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .section_4 .card-body img {
+        width: 37%;
+        margin-bottom: 30px;
+    }
+    .map_list .ul_div {
+        padding: 20px;
+    }
+    .map_list .ul_div ul li {
+        width: 33%;
+        font-size: 12px;
+    }
+
+
+    .cust_cont h1{
+        line-height: 36px;
+    }
+    .section_4 .footer_first_row .col-sm-6 {
+        width: 100%;
+    }
+    .map_list .ul_div ul li {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .map_list .ul_div {
+        padding: 10px;
+    }
+    .map_list .ul_div ul li {
+        width: 45%;
+        font-size: 12px;
+    }
+    .section_3 form {
+        flex-wrap: wrap;
+    }
+    .section_3 form button {
+        margin-top: 10px;
+    }
+    .btn_partner{
+        margin-bottom: 10px;
+    }
+    /*.section_1 .form-group #find_agent {*/
+        /*width: 34%;*/
+    /*}*/
+    .section_1 .form-group .inp_sub{
+        padding: 0px;
+    }
+    /*.section_1 .form-group #find_agent {*/
+        /*width: 43%;*/
+        /*top: 9%;*/
+        /*right: 6px;*/
+    /*}*/
+    /*.section_1 .input_container i{*/
+        /*left: 4px !important;*/
+    /*}*/
+    /*.section_1 .form-group .inp_sub:before{*/
+        /*top: 15%;*/
+        /*left: 17px;*/
+    /*}*/
+    /*.map_list .ul_div ul li {*/
+        /*width: 58%;*/
+    /*}*/
+    .map_list .ul_div ul {
+        justify-content: center;
+    }
+    h3.mar_head {
+        font-size: 16px;
+    }
+    .btn_partner,
+    .btn_buyers{
+        margin-right: 0px;
+    }
+
+
+}
+@media screen and (max-width: 320px){
+    .section_3 .swiper .swiper-slide img {
+        width: 100% !important;
+    }
+}
